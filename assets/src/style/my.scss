@@ -1,0 +1,539 @@
+// modal
+.btn-modal {
+    max-width: 270px;
+    padding: 15px 0;
+    font-size: 20px;
+}
+
+.modal-dialog {
+    max-width: 900px;
+}
+.modal-text {
+    font-family: "Cabin", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    max-width: 435px;
+    margin-bottom: 35px;
+}
+.modal-header .btn-close {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 100;
+    padding: 5px;
+}
+.modal-block {
+    padding: 65px 0 70px 70px;
+}
+.form-modal {
+    max-width: 375px;
+    width: 100%;
+}
+.modal-input {
+    max-width: 375px;
+    width: 100%;
+    padding: 20px 0 20px 30px;
+    border: 1px solid #c8c8c8;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #c4c4c4;
+    margin-bottom: 30px;
+    &:hover {
+        border: 1px solid #c8c8c8;
+    }
+    &:focus {
+        border: 1px solid #c8c8c8;
+    }
+}
+
+.label-radio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    font-size: 12px;
+}
+
+.real-radio {
+    display: none;
+}
+
+.custom-radio {
+    position: relative;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-right: 16px;
+    vertical-align: middle;
+    background-color: #142239;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.custom-radio img {
+    right: 0;
+    position: absolute;
+    top: 0;
+    transform: translate(-27%, 35%);
+}
+
+.custom-radio--text {
+    width: 300px;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+}
+.label-radio input:checked + .custom-radio {
+    background-color: #0400f7;
+}
+.modal-header {
+    position: relative;
+    padding: 0;
+}
+.modal-img {
+    right: 0;
+    top: 75px;
+}
+.title-modal {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 55px;
+    color: #397abc;
+}
+.modal-thanks {
+    z-index: 20;
+    background: #ffffff;
+    position: fixed;
+    width: 450px;
+    height: 600px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+
+.modal-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.closed {
+    top: 15px;
+    right: 15px;
+    z-index: 100;
+}
+// modal
+
+// header
+.header {
+    padding-bottom: 125px;
+    margin-bottom: 40px;
+    z-index: 0;
+}
+.header-title {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-size: 72px;
+    line-height: 100.01%;
+    color: #0f0e0e;
+    max-width: 685px;
+    font-weight: 400;
+}
+.header-title span {
+    font-family: "Segoe UI Semibold";
+}
+.header-text {
+    font-style: normal;
+    font-size: 30px;
+    line-height: 110%;
+    color: #000000;
+    max-width: 485px;
+}
+.header-phone {
+    max-width: 700px;
+    height: 100%;
+}
+.bg-header {
+    left: 0;
+    top: -25px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+.bg-header-mob {
+    left: 0;
+    top: -25px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+// header
+
+// advantages
+.advantages {
+    padding-bottom: 230px;
+}
+.title-advantages {
+    margin-bottom: 70px;
+}
+.advantages-content__line--element {
+    width: 100%;
+    max-width: 450px;
+    z-index: 0;
+}
+.advantages__line--top--text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+}
+.advantages__line--bottom--text {
+    display: block;
+    margin: 0 0 0 93px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    max-width: 355px;
+}
+.abs-element-under {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 255px;
+    line-height: 100%;
+    color: #ebf5ff;
+    font-family: Montserrat, sans-serif;
+    z-index: -1;
+}
+.advantages__line--element--top img {
+    width: 90px;
+    height: 83px;
+}
+// advantages
+
+// about-us
+.about-us {
+    background-color: #f4f9ff;
+    padding: 60px 0 90px;
+}
+.title-about-us {
+    margin-bottom: 100px;
+}
+.about-us-information {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 130.19%;
+}
+// about-us
+
+// cases
+.cases {
+    padding: 45px 0 115px;
+}
+
+.cases .container {
+    max-width: 100% !important;
+}
+
+.swiper-cases {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+}
+
+.slide-cases {
+    width: 100% !important;
+    // max-width: 33.33%;
+    max-width: 33%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.slide-cases .slide-cases-block {
+    transform: scale(0.6);
+    filter: blur(4px);
+}
+
+.swiper-slide-active {
+    max-width: 34% !important;
+}
+
+.swiper-slide-active .slide-cases-block {
+    z-index: 10;
+    transform: none;
+    filter: none;
+    width: 100%;
+}
+
+.slide-cases-block {
+    padding-right: 5px;
+    border-radius: 10px;
+    height: 476px;
+    background: #f4f9ff;
+}
+// -----------------------
+.swiper-slide-active .slide-cases-block__blue {
+    background-color: #397abc;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    // max-width: 345px;
+    max-width: 360px;
+    padding: 0 20px;
+}
+
+.slide-cases-block__blue {
+    max-width: 320px;
+    background-color: #397abc;
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    padding: 0 20px;
+}
+// -----------------------
+.slide-cases-block__blue img {
+    width: 270px;
+}
+// -----------------------
+
+.swiper-slide-active .slide-blue-text {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 37px;
+    color: #fff;
+}
+.slide-blue-text {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+}
+// -----------------------
+// -----------------------
+.swiper-slide-active .title-slide {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    color: #397abc;
+}
+.title-slide {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 19px;
+    line-height: 25px;
+    text-decoration-line: underline;
+    color: #397abc;
+}
+// -----------------------
+// -----------------------
+
+.swiper-slide-active .title-slide__description {
+    min-width: 120px;
+    width: 120px;
+    height: 65px;
+    background: #f4f9ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 105%;
+    color: #397abc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-slide__description {
+    min-width: 100px;
+    width: 100px;
+    height: 65px;
+    background: #f4f9ff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 105%;
+    color: #397abc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// -----------------------
+
+// ---------------------------
+.swiper-slide-active .slide__description--text {
+    min-width: 109px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+}
+.slide__description--text {
+    min-width: 90px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 110%;
+}
+// ---------------------------
+.title-cases {
+    margin-bottom: 120px;
+}
+.title-desctop-cases {
+    display: none;
+    margin-bottom: 35px;
+}
+.cases-mobile {
+    display: none;
+}
+.prev-slide {
+    position: absolute;
+    top: 35px;
+    right: 200px;
+}
+.next-slide {
+    position: absolute;
+    top: 35px;
+    right: 125px;
+}
+// cases
+
+// working
+.working {
+    padding: 100px 0 120px;
+    background-color: #f4f9ff;
+}
+.title-working {
+    margin-bottom: 80px;
+}
+.title-woking-element {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 100%;
+    text-align: center;
+}
+.information-working-element {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    font-style: normal;
+    max-width: 360px;
+}
+.btn-working {
+    max-width: 530px;
+}
+// working
+
+// leads
+.leads {
+    padding: 115px 0 150px;
+}
+.text-form {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 32px;
+    color: #333333;
+}
+.form-leads-line__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #333333;
+}
+.input-leads {
+    display: block;
+    max-width: 525px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    padding: 25px 0 25px 20px;
+    background-color: #e6e7e9;
+    border-radius: 8px;
+}
+.btn-leads {
+    max-width: 525px;
+}
+// leads
+
+// thanks
+.thanks {
+    padding-bottom: 75px;
+}
+.thanks-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 29px;
+    max-width: 710px;
+}
+.thanks-card {
+    width: 100%;
+    max-width: 360px;
+    height: 400px;
+}
+.thanks-card__important {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    color: #9cc853;
+}
+.thanks-card__text {
+    font-family: "Segoe UI";
+    max-width: 305px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+.thanks-card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+// thanks
+
+// footer
+.footer {
+    background-color: #142239;
+}
+.footer-text {
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 125%;
+    color: #ffffff;
+}
+// footer

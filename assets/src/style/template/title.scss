@@ -1,0 +1,24 @@
+.title-medium {
+    font-family: "Segoe UI";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 72px;
+    line-height: 105%;
+    color: #397abc;
+}
+@media (max-width: 1200px) {
+    .title-medium {
+        font-size: 60px;
+    }
+}
+@media (max-width: 767px) {
+    .title-medium {
+        font-size: 45px;
+    }
+}
+@media (max-width: 575px) {
+    .title-medium {
+        font-size: 29px;
+        line-height: 105%;
+    }
+}
